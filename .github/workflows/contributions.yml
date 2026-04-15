@@ -1,0 +1,31 @@
+name: Generate Contribution Snake
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Daily
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Generate snake animation
+        uses: Platane/snk@v3
+        with:
+          github_user_name: chethiyab
+          outputs: |
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.gif?color_snake=orange&color_dots=#00dfd8,#26a641,#ff0080
+          # Custom SVG post-processing for Pacman effect (optional)
+      
+      - name: Push to output branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: dist
+          publish_branch: output

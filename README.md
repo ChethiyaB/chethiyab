@@ -30,7 +30,7 @@
 
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/chethiyab/chethiyab/output/pacman.svg" height="200"/>
+  <img src="https://raw.githubusercontent.com/chethiyab/chethiyab/output/github-contribution-grid-snake-dark.svg" alt="Contributions"/>
 
   <img src="https://streak-stats.demolab.com?user=chethiyab&theme=github-dark&hide_border=true&background=0d1117&ring=ff0080&fire=ff0080&currStreakLabel=00dfd8" height="200"/>
 
