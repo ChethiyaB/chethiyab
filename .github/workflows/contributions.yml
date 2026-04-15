@@ -2,14 +2,17 @@ name: Generate Contribution Snake
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Daily
-  workflow_dispatch:
+    - cron: '0 0 * * *'  # Daily at midnight UTC
+  workflow_dispatch:     # Allow manual trigger from GitHub UI
+  push:
+    branches:
+      - main             # Re-run when README is updated
 
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: write    # ← Required to push generated files
     
     steps:
       - uses: actions/checkout@v4
@@ -21,7 +24,6 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
             dist/github-contribution-grid-snake.gif?color_snake=orange&color_dots=#00dfd8,#26a641,#ff0080
-          # Custom SVG post-processing for Pacman effect (optional)
       
       - name: Push to output branch
         uses: peaceiris/actions-gh-pages@v4
@@ -29,3 +31,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: dist
           publish_branch: output
+          # Keep README.md and other files on output branch minimal
+          keep_files: false
