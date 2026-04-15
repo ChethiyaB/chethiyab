@@ -38,23 +38,6 @@
 
 ---
 
-## 🚀 Featured Projects
-
-<div align="center">
-
-| Project | Description | Tech | Links |
-|---------|-------------|------|-------|
-| **Sky-T** | IoT sensor network + drone telemetry for precision agriculture | `ESP32` `MQTT` | [Repo](https://github.com/chethiyab/Sky-T-Tea-Estate) |
-| **Pixel2Plot** | AI-assisted CNC with CV pipeline for image-to-GCode conversion | `Python` `C++` `OpenCV` | [Repo](https://github.com/chethiyab/Pixel2Plot-AI-CNC) |
-| **E-conductor** | Full-stack bus ticketing platform with real-time analytics | `React` `Node.js` `MySQL` | [Repo](https://github.com/chethiyab/E-conductor-fullstack) |
-| **RV32IM-Pipeline** | 32-bit RISC-V processor with hazard detection & forwarding | `VHDL` `Assembly` | [Repo](https://github.com/chethiyab/RV32IM-Pipeline) |
-| **FreeRTOS-Context-Switch** | RISC-V CPU extension for reduced interrupt latency | `C` `FreeRTOS` | [Repo](https://github.com/chethiyab/FreeRTOS-Context-Switch) |
-| **AIESEC-Analytics-Auto** | Automated reporting pipeline using Streamlit & GraphQL | `Python` `GraphQL` | [Repo](https://github.com/chethiyab/AIESEC-Analytics-Auto) |
-
-</div>
-
----
-
 ## 🧠 Tech Stack & Interests
 
 ```yaml
