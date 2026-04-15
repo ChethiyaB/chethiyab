@@ -57,7 +57,7 @@ Hardware & Embedded:
 
 Networking & IoT:
   Protocols: MQTT, Modbus, TCP/IP, HTTP/WebSocket
-  Knowledge: CCNA-level Networking, Security Fundamentals
+  Technologies: Docker, Kubernetes
 
 ```
 ---
