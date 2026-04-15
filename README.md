@@ -23,7 +23,7 @@
 
   <!-- Tech Stack -->
   <p>
-    <img src="https://skillicons.dev/icons?i=python,cpp,js,ts,react,nodejs,express,mongodb,postgres,docker,git,github,linux,arduino,esp32,tensorflow,pytorch,vhdl,fpga&theme=dark&perline=10"/>
+    <img src="https://skillicons.dev/icons?i=python,cpp,js,ts,react,nodejs,express,mongodb,docker,git,github,linux,arduino,riscv,freertos,tensorflow,pytorch,vhdl,fpga&theme=dark&perline=10"/>
   </p>
 
 </div>
@@ -85,4 +85,4 @@ Networking & IoT:
 
 ## 📊 Recent Activity
 
-<div align="center"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=chethiyab&theme=react-dark&hide_border=true&bg_color=0d1117&color=26a641&line=00dfd8&point=ff0080&area=true"/> </div> ```
+<div align="center"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=chethiyab&theme=react-dark&hide_border=true&bg_color=0d1117&color=26a641&line=00dfd8&point=ff0080&area=true"/> </div>
